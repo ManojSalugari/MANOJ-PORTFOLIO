@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+import Tilt from 'react-parallax-tilt';
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -40,18 +40,28 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[20px] max-w-4xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+  <div className="flex items-center">
+    <span className="text-xl mr-2">•</span> With 3 years of Experience, I specialize in creating high-performance websites.
+  </div>
+  <div className="flex items-center">
+    <span className="text-xl mr-2">•</span> Passionate about crafting scalable, intuitive, and seamless user experiences.
+  </div>
+  <div className="flex items-center">
+    <span className="text-xl mr-2">•</span> Constantly refining skills for clean, optimized and maintainable code.
+  </div>
+  <div className="flex items-center">
+    <span className="text-xl mr-2">•</span> Currently seeking new opportunities and jobs to channel my skills.
+  </div>
+  <div className="flex items-center">
+    <span className="text-xl mr-2">•</span> These are the areas I’m passionate about and highly skilled in :
+  </div>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

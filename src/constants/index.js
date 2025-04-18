@@ -136,7 +136,7 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Content Development Advisor",
+    title: "Front End Development Content Advisor",
     company_name: "LogRocket",
     icon: logrocket,
     iconBg: "#383E56",

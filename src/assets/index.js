@@ -28,7 +28,7 @@ import logrocket from "./company/logrocket.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import automailai from "./company/automailai.webp";
+import community from "./company/coummnity.jpeg";
 import freelance from "./company/freelance.jpg";
 import internship from "./company/Internship.png";
 import chatwithpdf from "./video.mp4";
@@ -49,7 +49,7 @@ export {
   iphone,
   internship,
   freelance,
-  automailai,
+  community,
   logrocket,
   Nextjs,
   logo,

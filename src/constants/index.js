@@ -15,17 +15,9 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
   Nextjs,
   logrocket,
-  automailai,
+  community,
   freelance,
   internship,
   chatwithpdf,
@@ -62,15 +54,15 @@ const services = [
     icon: web,
   },
   {
-    title: "FULLSTACK DEVELOPMENT",
+    title: "BACKEND DEVELOPMENT",
     icon: mobile,
   },
   {
-    title: "SOFTWARE ENGINEERING",
+    title: "FULLSTACK DEVELOPMENT",
     icon: backend,
   },
   {
-    title: "WEB DESIGN",
+    title: "SOFTWARE ENGINEERING",
     icon: creator,
   },
 ];
@@ -133,7 +125,18 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Front End Development Advisor",
+    title: "Front End Developer",
+    company_name: "Community Dreams",
+    icon: community,
+    iconBg: "#383E56",
+    date: "Feb 2025 - Present",
+    points: [
+      "Wrote clean, efficient code, to improve maintainability, reusability.",
+      "Followed microservices architecture for modularity and integrated NoSQL databases like MongoDB.",
+    ],
+  },
+  {
+    title: "Frontend Content Development Advisor",
     company_name: "LogRocket",
     icon: logrocket,
     iconBg: "#383E56",
@@ -144,19 +147,8 @@ const experiences = [
     ],
   },
   {
-    title: " Next.js Developer",
-    company_name: "AutoMail AI",
-    icon: automailai,
-    iconBg: "#383E56",
-    date: "Oct 2024 - Dec 2024",
-    points: [
-      "Wrote clean, efficient code, to improve maintainability, reusability.",
-      "Followed microservices architecture for modularity and integrated NoSQL databases like MongoDB.",
-    ],
-  },
-  {
     title: "Front End Developer",
-    company_name: "FreeLance Developer",
+    company_name: "FreeLance",
     icon: freelance,
     iconBg: "#383E56",
     date: "Jun 2022 – Oct 2024",

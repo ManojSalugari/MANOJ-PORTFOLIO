@@ -126,7 +126,7 @@ const technologies = [
 const experiences = [
   {
     title: "Front End Developer",
-    company_name: "Community Dreams",
+    company_name: "Community Dreams Foundation",
     icon: community,
     iconBg: "#383E56",
     date: "Feb 2025 - Present",

@@ -41,17 +41,15 @@ const ProjectCard = ({ index, name, description, tags, video, project_link }) =>
               muted
               playsInline
               preload="none"
-              className="w-full h-[600px] object-cover rounded-2xl"
+              className="w-full h-[600px] object-contain rounded-2xl"
             />
           )}
           <div className="mt-6 w-full text-center">
-            <h3 className="text-white text-[28px] font-bold">
-              {name}
-            </h3>
-            <p className="mt-4 text-gray-400 text-[16px]">{description}</p>
+            <h3 className="text-white text-[28px] font-bold">{name}</h3>
+            <p className="mt-4 text-gray-300 text-[16px]">{description}</p>
             <div className="mt-4 flex justify-center flex-wrap gap-3">
               {tags.map((tag, idx) => (
-                <span key={idx} className="text-sm text-gray-500">
+                <span key={idx} className="text-sm text-gray-300 font-semibold">
                   #{tag.name}
                 </span>
               ))}

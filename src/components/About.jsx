@@ -48,10 +48,10 @@ const About = () => {
         className='mt-4 text-secondary text-[20px] max-w-4xl leading-[30px]'
       >
   <div className="flex items-center">
-    <span className="text-xl mr-2">•</span> With 3 years of Experience, I specialize in creating high-performance websites.
+    <span className="text-xl mr-2">•</span> With 2 years of Experience, I specialize in programming and software development.
   </div>
   <div className="flex items-center">
-    <span className="text-xl mr-2">•</span> Passionate about crafting scalable, intuitive, and seamless user experiences.
+    <span className="text-xl mr-2">•</span> Passionate about writing scalable, reusable, and optmized code.
   </div>
   <div className="flex items-center">
     <span className="text-xl mr-2">•</span> Constantly refining skills for clean, optimized and maintainable code.

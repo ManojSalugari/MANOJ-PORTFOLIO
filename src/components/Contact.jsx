@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-const resumeLink = "/SAICHARAN_RESUME.pdf"; // Link to the public folder
+const resumeLink = "/public/Manoj_Salugari.pdf"; // Link to the public folder
 
 const Contact = () => {
   const formRef = useRef();
@@ -34,9 +34,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "SAI CHARAN SALUGARI",
+          to_name: "MANOJ SALUGARI",
           from_email: form.email,
-          to_email: "saicharansalugari9@gmail.com",
+          to_email: "manojsalugari@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

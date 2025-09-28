@@ -7,7 +7,7 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
-const resumeLink = "/public/Manoj_Salugari.pdf"; // Link to the public folder
+const resumeLink = "/src/assets/Manoj_Salugari.pdf";
 
 const Contact = () => {
   const formRef = useRef();

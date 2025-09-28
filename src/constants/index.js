@@ -176,7 +176,7 @@ const testimonials = [
 const projects = [
   {
     name: "CHAT WITH PDF - AI",
-    description: "Built real-time video conferencing platform with live streaming features, text chat and video chat, file sharing and screen sharing.",
+    description: "Built real-time chat application about PDFs with AI to generate real time answers ",
     tags: [
       { name: "AWS S3", color: "text-green-500" },
       { name: "Open AI", color: "text-red-500" },
@@ -226,7 +226,7 @@ const projects = [
   },
   {
     name: "3D skateboards",
-    description: "  Built a responsive 3D iphone Single Page Application (SPA) using  Next.js",
+    description: "  Built a responsive 3D Skateboards Single Page Application (SPA) using  Next.js",
     tags: [
       { name: "React.js", color: "text-yellow-500" },
       { name: "Three.js", color: "text-red-500" },
@@ -234,6 +234,17 @@ const projects = [
     ],
     video:suburbia,
     project_link: "https://skateboards3d-manojsalugari.vercel.app/",
+  },
+  {
+    name: "ConnectNow",
+    description: "Built real-time video conferencing platform with live streaming features, text chat and video chat, file sharing and screen sharing",
+    tags: [
+      { name: "React.js", color: "text-yellow-500" },
+      { name: "Clerk", color: "text-red-500" },
+      { name: "TailwindCSS", color: "text-red-500" },
+    ],
+    video:videomeet,
+    project_link: "https://connect-now-black.vercel.app/sign-in",
   },
  
 ];
